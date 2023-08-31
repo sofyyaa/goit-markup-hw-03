@@ -36,8 +36,8 @@ body {
 
 .container {
     width: 1158px;
-    margin: 0 auto
-    padding: 0 15px 0 15px
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 
 }
 
@@ -99,6 +99,11 @@ body {
     font-style: normal;
 }
 
+.contacts-item {
+    display: flex;
+    gap: 40px;
+}
+
 .span {
     color: #2e2f42;
 }
@@ -112,7 +117,7 @@ body {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding: 24px 0
+        padding: 24px 0;
 }
 
 
@@ -137,7 +142,11 @@ body {
 }
 
 
+.header-menu {
+    display: flex;
+    gap: 40px;
 
+}
 
 .header-menu-item:hover {
     color: #404bbf;
@@ -166,6 +175,11 @@ body {
 .header-menu-tittle:focus {
     color: #404bbf;
 }
+
+.hero {
+    padding: 188px 0;
+}
+
 
 .hero-hero {
     background-color: #2E2F42;
@@ -221,7 +235,7 @@ background-color: #404BBF
 }
 
 .img {
-    display: block
+    display: block;
 }
 
 
@@ -243,7 +257,7 @@ background-color: #404BBF
 
 
 .team-list {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
     padding: 120px 0;
 
 }
@@ -330,6 +344,7 @@ background-color: #404BBF
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
+    margin-bottom: 8px;
 }
 
 .advantages-item-text {
@@ -400,6 +415,8 @@ background-color: #404BBF
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        padding: 12px 24px;
+        border: 1px solid #e7e9fc;
         background-color: #F4F4FD;
         
 }
@@ -407,13 +424,41 @@ background-color: #404BBF
 .btn-tittle-tittle:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .btn-tittle-tittle:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
+.payment {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.payment-link {
+    width: calc((100% - 48px) / 3);
+
+}
+
+.payment-item {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+
+}
 
 .list-list {
        
