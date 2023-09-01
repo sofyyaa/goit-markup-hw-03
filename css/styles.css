@@ -472,7 +472,8 @@ background-color: #404BBF
         flex-shrink: 0;
         border: 1px solid var(--cornflower, #E7E9FC);
         background: var(--white, #FFF);
-}
+        width: calc((100% - 48px) / 3);
+}  
 
 .list {
     list-style: none;
