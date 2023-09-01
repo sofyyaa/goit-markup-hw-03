@@ -447,7 +447,7 @@ background-color: #404BBF
 }
 
 .visually-hidden {
-    overflow: hidden;
+    visibility: hidden;
 }
 
 .payment-item {
