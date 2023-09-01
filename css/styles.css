@@ -117,9 +117,7 @@ body {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding-top: 24px;
-        padding-bottom: 24px;
-            
+        
 }
 
 
@@ -497,13 +495,14 @@ background-color: #404BBF
 
 
 
- .header-menu-link link {
+ .header-menu-link {
      color: var(--navyblue, #2E2F42);
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
      line-height: 1.5;
      letter-spacing: 0.02em;
+     padding: 24px 0
 
  }
 
