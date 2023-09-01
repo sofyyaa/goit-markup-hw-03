@@ -441,7 +441,7 @@ background-color: #404BBF
     row-gap: 48px;
 }
 
-.payment-link {
+.payment-link link{
     width: calc((100% - 48px) / 3);
 
 }
