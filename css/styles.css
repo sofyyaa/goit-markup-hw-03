@@ -238,7 +238,9 @@ background-color: #404BBF
     margin-bottom: 72px;
 }
 
-
+.img {
+    display: block;
+}
 
 .images {
     padding-bottom: 120px;
