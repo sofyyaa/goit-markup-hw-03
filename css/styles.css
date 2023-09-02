@@ -13,7 +13,9 @@ body {
     --cloud:#f4f4fd;
 }
 
-
+.img {
+    display: block;
+}
 
 
 .link {
@@ -238,9 +240,6 @@ background-color: #404BBF
     margin-bottom: 72px;
 }
 
-.img {
-    display: block;
-}
 
 .images {
     padding-bottom: 120px;
