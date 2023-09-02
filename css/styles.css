@@ -13,6 +13,11 @@ body {
     --cloud:#f4f4fd;
 }
 
+
+.img {
+    display: block
+}
+
 .link {
     text-decoration: none;
 }
@@ -234,9 +239,6 @@ background-color: #404BBF
     margin-bottom: 72px;
 }
 
-.img {
-    display: block
-}
 
 
 .images {
