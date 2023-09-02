@@ -50,8 +50,6 @@ body {
     
     margin: -1px;
     border: 0;
-
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -451,9 +449,7 @@ background-color: #404BBF
 
 }
 
-.visually-hidden {
-    display: none;
-}
+
 
 .payment-item {
     padding: 32px 16px;
